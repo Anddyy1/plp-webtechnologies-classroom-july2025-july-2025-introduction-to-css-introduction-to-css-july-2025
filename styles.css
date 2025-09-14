@@ -1,0 +1,104 @@
+/* ===========================
+   Global Styles
+   =========================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===========================
+   Container Section
+   =========================== */
+.container {
+    background-color: #add8e6;
+    /* light blue */
+    margin: 20px auto;
+    /* margin outside container */
+    padding: 30px;
+    /* space inside container */
+    border: 5px solid navy;
+    /* border for box visibility */
+    max-width: 800px;
+    /* width limit for readability */
+    box-sizing: border-box;
+    /* include padding & border in width */
+}
+
+.heading {
+    text-align: center;
+    background-color: #f08080;
+    /* light coral */
+    padding: 10px;
+    margin: 0 0 20px 0;
+    /* bottom margin to separate from paragraph */
+}
+
+.paragraph {
+    background-color: #90ee90;
+    /* light green */
+    margin: 15px 0;
+    /* vertical spacing outside paragraph */
+    padding: 10px;
+    /* space inside paragraph box */
+    border: 2px dashed green;
+    /* visible border style */
+}
+
+/* ===========================
+   Button Section
+   =========================== */
+.button-container {
+    text-align: center;
+    /* center buttons horizontally */
+    margin: 20px 0;
+}
+
+.box-button {
+    margin: 10px;
+    /* space outside button */
+    padding: 15px 30px;
+    /* space inside button */
+    border: 3px solid darkblue;
+    background-color: #ffffe0;
+    /* light yellow */
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* ===========================
+   Card Section
+   =========================== */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* space between cards */
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background-color: #d3d3d3;
+    /* light gray */
+    padding: 20px;
+    /* space inside card */
+    border-radius: 10px;
+    border: 2px solid black;
+    /* card outline */
+    width: 300px;
+    box-sizing: border-box;
+    /* include padding & border in width */
+}
+
+.card-title {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.card-text {
+    margin: 0;
+    font-size: 16px;
+}
